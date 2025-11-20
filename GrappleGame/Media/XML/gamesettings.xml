@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+
+<!-- Game settings -->
+
+<settings>
+  <game name="Top Down Tiled Game Prototype With Death" />
+  <renderer width="1024" height="768"/>
+   
+  <font file="Media\Fonts\AverageSans_24.spritefont"/>
+
+  <!-- sprites -->
+   
+  <sprites path="Media\Images">
+    <sprite name="tile" file="tile" ext ="png" frames="3"/>
+    <sprite name="player" file="player.png"/>
+    <sprite name="turret" file="turret.png"/>
+    <sprite name="bullet" file="bullet.png"/>
+    <sprite name="bullet2" file="bullet2.png"/>
+    <sprite name="smoke" file="graysmoke.png"/>
+    <sprite name="spark" file="spark.png"/>
+    <sprite name="greenline" file="greenline.png"/>
+    <sprite name="spike" file="Spike_Pixel.png"/>
+    <sprite name="door" file="castledoors.png"/>
+    <sprite name="star" file="star.png"/>
+    <sprite name="healthpack" file="HealthPickup.png"/>
+    <sprite name="bat" file="bat.png"/>
+    <sprite name="swooper" file="swooper.png"/>
+    <sprite name="launchpad" file="launchpad.png"/>
+    <sprite name="oneup" file="oneup.png"/>
+    <sprite name="win" file="win.png"/>
+    <sprite name="lose" file="dead.png"/>
+    <sprite name="dooropen" file="castledoorsopen.png"/>
+	<sprite name="healthbar_green" file="healthbar-green.png"/>
+	<sprite name="healthbar_red" file="healthbar-red.png"/>
+	<sprite name="creeper" file="creeper.png"/>
+	<sprite name="creeper_explosion" file="creeper_explosion.png"/>
+    
+    <sprite name="standright" file="standright.png"/>
+    <sprite name="standleft" file="standleft.png"/>
+    <sprite name="walkleft" file="walkleft.png"/>
+    <sprite name="walkright" file="walkright.png"/>
+    <sprite name="jump" file="jump.png"/>
+    <sprite name="grappler" file="grappler.png"/>
+    <sprite name="shotgun" file="shotgun.png"/>
+  </sprites>
+
+  <!-- sound -->
+  
+  <sounds  path="Media\Sounds"> 
+    <sound name="start" file="start.wav" instances="1"/>
+    <sound name="gun" file="44magnum.wav" instances="8"/>
+    <sound name="ricochet" file="ricochet.wav" instances="8"/>
+    <sound name="clang" file="clang.wav" instances="4"/>
+    <sound name="grunt" file="umph.wav" instances="2"/>
+    <sound name="boom" file="boom.wav" instances="4"/>
+    <sound name="powerdown" file="powerdown.wav" instances="4"/>
+    <sound name="star" file="star.wav" instances="4"/>
+	<sound name="bounce" file="bounce.wav" instances="4"/>
+  </sounds>
+</settings>
